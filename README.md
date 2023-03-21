@@ -31,10 +31,10 @@ The data consists of events recorded when the user login, register, jump to diff
 We will then leverage our learning to scale an optimized model to the full 12GB data set.
 
 ## Technical Configuration
-<br>Works on PySpark version >= 2.4.3, with the standard PySpark ML classifier modules and functions.
-<br>PySpark & Python modules: pyspark.sql, pyspark.ml, matplotlib, numpy, pandas
-<br>When moving the running the code on the full dataset, an AWS Cluster was used. 
-<br>You can also run this code on your laptop, leveraging the AWS Glue Spark Docker container to fast-track your development. I personally found it extremelly useful to iteratively develop Spark python code with a Jupyter notebook directly on my laptop. I already used the same approach at work, learning the trick from AWS. See this blog on how to set up your machine. 
+- Works on PySpark version >= 2.4.3, with the standard PySpark ML classifier modules and functions.
+- PySpark & Python modules: pyspark.sql, pyspark.ml, matplotlib, numpy, pandas
+- When moving the running the code on the full dataset, an AWS Cluster was used. 
+- You can also run this code on your laptop, leveraging the AWS Glue Spark Docker container to fast-track your development. I personally found it extremelly useful to iteratively develop Spark python code with a Jupyter notebook directly on my laptop. I already used the same approach at work, learning the trick from AWS. See this blog on how to set up your machine. 
 https://aws.amazon.com/blogs/big-data/develop-and-test-aws-glue-version-3-0-jobs-locally-using-a-docker-container/
 
 ## Files In The Repository
