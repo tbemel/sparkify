@@ -27,7 +27,7 @@ In the attached workbook, will follow this overal strategy for solving the probl
 <b>The Sparkify dataset</b> is anchored in the music streaming services similar to Spotify. Customers use their mobile devices or computer to browse a music libary, listen to music. They need first to register to the service, then they can either use the 'free' service tier with advertising, no offline mode and restricted use or later upgrade and subscribe to the full experience with a monthly fee. The company aims to maximise their revenue by increasing their subscriptions and also minimizing the customer "churn", when they cancel their account. To minimize the churn, the company would like to develop a machine learning model to predict when a customer would be likely to downgrade or cancel their registration and trigger incentivizing marketing tactics to prevent the churn.
 
 The data consists of events recorded when the user login, register, jump to different songs, upgrade, downgrade or cancel their registration.
-<br>We will start with a 12MB size small sample of the full data set to explore the data, its key features and iteratively develop our ML model. 
+<br>We used the 128MB size small sample of the full data set to explore the data, its key features and iteratively develop our ML model. 
 We will then leverage our learning to scale an optimized model to the full 12GB data set.
 
 ## Technical Configuration
@@ -38,8 +38,10 @@ We will then leverage our learning to scale an optimized model to the full 12GB 
 https://aws.amazon.com/blogs/big-data/develop-and-test-aws-glue-version-3-0-jobs-locally-using-a-docker-container/
 
 ## Files In The Repository
-<br>Sparkify_.ipynb - PySpark Jupyter Notebook doing the data ingestion, preparation, feature engineering and ML modeling/tuning/evaluation
-<br>
+- Sparkify.ipynb : PySpark Jupyter Notebook doing the data ingestion, preparation, feature engineering and ML modeling/tuning/evaluation
+- LICENCE : usage licence
+- README.md : this introduction text
+- mini_sparkify_event_data.json : IS NOT INCLUDED as github has a maximum of 100MB file size and this file was 128MB. It can be found on Udacity
 
 ## Acknolwedgements
 I would like to extend my gratitude to 
