@@ -1,4 +1,4 @@
-# sparkify
+# Sparkify - PySpark ML Capstone Project To Detect Customer Churn
 Udacity DataScience Nano Degree - Sparkify Project
 
 ## Project Objective & Background
