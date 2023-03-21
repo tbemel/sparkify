@@ -9,7 +9,7 @@ The Sparkify dataset is anchored in the music streaming services similar to Spot
 <br>The company aims to maximise their revenue by increasing their subscriptions and also minimizing the customer "churning", i.e. cancelling their account. 
 
 The public dataset "Sparkify" consists of events recorded when the user login, register, jump to different songs, upgrade, downgrade or cancel their registration.
-<br><br>Please see my related blog [PySpark, A Magic Recipie To Predict Customer About To Leave You- Udacity Sparkify Capstone Project](PySpark, A Magic Recipie To Predict Customer About To Leave You- Udacity Sparkify Capstone Project) 
+<br><br>Please see my related blog https://medium.com/@tbemel/pyspark-a-magic-recipie-to-predict-customer-about-to-leave-you-udacity-sparkify-capstone-project-abca1fd89c8f
 
 ## Problem Statement & Solutioning Strategy
 The problem to be solved is to train, test and tune a machine learning model to predict the customer at risks of 'churn' i.e. downgrading/cancelling their subscriptions so marketing strategies can optimize the subscription revenues.
